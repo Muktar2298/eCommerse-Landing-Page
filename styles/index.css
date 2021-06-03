@@ -144,6 +144,12 @@ a {
 
 /* --Product End -- */
 
+/* --load More Product Start-- */
+#collapse-container{
+  display:block;
+}
+/* --load More Product End-- */
+
 /* --Shopping Start-- */
 .shopping-container {
   margin-top: 7rem;
