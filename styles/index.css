@@ -177,3 +177,63 @@ a {
 /* --Shopping End-- */
 
 /* --Main End -- */
+
+
+/* --Footer Start-- */
+.footer-container {
+  margin-top: 4rem;
+}
+.back-top-container {
+  background:#293551e1;
+}
+.back-top-container a{
+  color: white;
+  font-weight: 400px;
+  display: block;
+  text-align: center;
+  padding: 0.7rem;
+}
+
+
+/* --Customer Care Start-- */
+.customer-care-container{
+  background:#010a25d8;
+  width:100%;
+  height:100%;
+}
+.customer-care-container ul li{
+  list-style: none;
+}
+.customer-care-container h6{
+  color: white;
+  font-weight: 400px;
+}
+ul li a{
+  color: white;
+}
+ul li a:hover{
+  text-decoration: underline;
+  color: gray;
+}
+
+.customer-care-container img{
+  width:80%;
+  height:80%;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media all and (max-width:600px){
+  .customer-care-container .customer-content{
+    display:flex;
+  }
+  .customer-content .half-width{
+    width:50%;
+  }
+  .customer-content .half-width-item2{
+    margin-top: 1.5rem;
+  }
+}
+/* --Customer Care End-- */
+/* --Footer End-- */
